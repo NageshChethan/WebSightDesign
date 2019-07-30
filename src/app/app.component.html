@@ -1,0 +1,197 @@
+<div class="wrapper">
+  <header class="header header--white">
+		<a href="/" class="logo">
+			<aside><span></span><span></span></aside>
+			<strong>
+				<span></span>
+				LOGO
+			</strong>
+		</a>
+
+		<nav class="nav" id="navBar">
+			<ul [ngClass]="status?'Active':'none'">
+				<li>
+					<a routerLink="/home" >Home</a>
+				</li>
+
+				<li class="nav__dropdown-holder">
+					<a  routerLink="/services" >Services</a>					
+				</li>
+				<li>
+					<a routerLink="/about" >About</a>
+				</li>
+				
+				<li class="nav__login">
+					<a routerLink="/login" >
+						<i class="ico-padlock-unlock-charcoal"></i>
+						<span> Login</span>
+					</a>
+				</li>
+			</ul>
+		</nav>
+		<div class="toggal">
+				<i class="fa fa-bars" aria-hidden="true" (click)="showMenu()"></i>
+		</div>
+		<!-- /.nav -->
+		<!-- <aside class="header__aside">
+			<a href="#" class="nav-btn js-toggle" data-class="nav-visible" data-target=".nav" data-dispatch="toggle">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+		</aside>/.header__aside -->
+  </header>
+
+  <router-outlet></router-outlet>
+
+  <footer class="footer ">
+		<div class="shell-fluid">
+			<div class="footer__content">
+				<div class="footer__nav-outer">
+					<nav class="footer__nav">
+						<h5>Quick Links</h5>
+
+						<ul>
+							<li>
+								<a href="/">Home</a>
+							</li>						
+
+							<li>
+								<a href="/about">About</a>
+							</li>						
+
+							<li>
+								<a href="/working-process">How It Works</a>
+							</li>
+
+							<li>
+								<a href="/services">Pricing &amp; Services</a>
+							</li>
+
+							<li>
+								<a href="/reviews">Reviews</a>
+							</li>
+						</ul>
+
+						
+					</nav><!-- /.footer__nav -->
+
+					<nav class="footer__nav">
+						<h5>Services</h5>
+
+						<ul>
+							<li>
+								<a href="/front-end-coding">Coding</a>
+							</li>
+
+							<li>
+								<a href="/wordpress-development">Development</a>
+							</li>
+
+							<li>
+								<a href="/email-template-coding">Email</a>
+							</li>	
+							
+
+							<li>
+								<a href="/single-page-apps"> APPs</a>
+							</li>
+
+							<li>
+								<a href="/spec-to-design">Service</a>
+							</li>
+						</ul>
+					</nav><!-- /.footer__nav -->
+
+					<nav class="footer__nav">
+						<h5>Get in Touch</h5>
+
+						<ul>							
+							<li>
+								<a href="/contact">Contact Us</a>
+							</li>
+
+							<li>&nbsp;</li>
+
+							<li>
+								<a href="tel:18442241228">
+									<i class="ico-phone-small"></i>
+
+					 				<strong>US:</strong>
+
+					 				+1 000 000 0000
+				 				</a>
+							</li>
+
+							<li>
+								<a href="tel:442036375848">
+									<i class="ico-phone-small"></i>
+
+					 				<strong>UK:</strong>
+
+					 				+000-000-0000
+				 				</a>
+							</li>
+
+							<li>
+								<a href="mailto:info@xyz.com">
+									<i class="ico-envelope-small"></i> info@xyz.com
+								</a>
+							</li>
+						</ul>
+					</nav><!-- /.footer__nav -->
+				</div><!-- /.footer__nav-outer -->
+
+				<div class="footer__inner">
+					<div class="footer__logo">
+						<a href="/" class="logo">
+							<aside>
+								<span></span>
+
+								<span></span>
+							</aside>
+
+							<strong>
+								<span></span>
+
+								LOGO
+							</strong>
+						</a>
+					</div><!-- /.footer__logo -->
+
+					<div class="socials">
+						<ul>
+							<li>
+								<a href="https://facebook.com/" rel="nofollow" target="_blank">
+									<img src="assets/Images/socialCircle/facebook.png" title="facebook" class="socialLinks" alt="facebook">
+									<i class="ico-github"></i>
+								</a>
+							</li>
+
+							<li>
+								<a href="https://www.instagram.com/" rel="nofollow" target="_blank">
+									<img src="assets/Images/socialCircle/Linkedin.png" class="socialLinks"  title="Linkedin"alt="Linkedin">
+									<i class="ico-instagram"></i>
+								</a>
+							</li>
+
+							<li>
+								<a href="https://twitter.com/" rel="nofollow" target="_blank">
+									<img src="assets/Images/socialCircle/Twitter.png" class="socialLinks" title="Twitter" alt="Twitter">
+									<i class="ico-twitter"></i>
+								</a>
+							</li>
+						</ul>
+					</div><!-- /.socials -->
+
+					<p class="copyright">© Copyright 20019-2020 xyz.com</p><!-- /.copyright -->
+				</div><!-- /.footer__inner -->
+			</div><!-- /.footer__content -->
+		</div><!-- /.shell -->
+	</footer>
+</div>
+
+
+
+
+

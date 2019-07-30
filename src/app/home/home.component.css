@@ -1,0 +1,205 @@
+/* MAin style */
+.main {
+    position: relative;
+    min-height: 100vh;
+}
+.intro--blue {
+    color: #fff;
+    background: #00a0d2;
+}
+.intro {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+    min-height: 700px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
+}
+.intro .intro__background {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: 50%;
+    /* opacity: .2; */
+}
+.intro .intro__group {
+    position: relative;
+    max-width: 805px;
+    z-index: 1;
+}
+.intro h1 {
+    position: relative;
+    padding-bottom: 60px;
+    margin-bottom: 52px;
+}
+h1 {
+    font-family: Tungsten Rounded,sans-serif;
+    font-size: 180px;
+    line-height: .78;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+h1 small {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 400;
+}
+.intro .intro__group>:last-child {
+    margin: 0;
+}
+.intro .scroll {
+    position: absolute;
+    z-index: 1;
+    display: inline-block;
+    bottom: 79px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    -webkit-transition: opacity .3s;
+    -o-transition: opacity .3s;
+    transition: opacity .3s;
+}
+a, button, input[type=button], input[type=file], input[type=image], input[type=reset], input[type=submit], label[for] {
+    cursor: pointer;
+}
+.ico-mouse-white {
+    position: relative;
+    width: 16px;
+    height: 23px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+[class^=ico] {
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -4004px;
+}
+h1 {
+    font-family: Tungsten Rounded,sans-serif;
+    font-size: 75px;
+    line-height: .78;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.intro h1:before, .intro h2:before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 8px;
+    bottom: 0;
+    /* background-image: url(../images/wave-charcoal.png); */
+    background-size: 100% 100%;
+}
+
+
+/* itruduction blog */
+.intro_cont {
+    color: #fff;
+    background-color: yellowgreen;
+    padding: 70px 0;
+    text-align: center;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+@media (min-width: 1200px){
+    .col-lg-offset-2 {
+        margin-left: 16.66666667%;
+    }
+}
+.glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.section-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.text-light {
+    color: rgba(255,255,255,.7);
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* End itruduction blog */
+
+/* content_1 blog */
+.content {
+    padding: 100px 0;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.img-circle {
+    border-radius: 50%;
+}
+/* End content_1 blog */
+
+/*  content_2 blog */
+.content-2 {
+    color: #fff;
+    background-color: #222;
+}
+.text-light {
+    color: rgba(255,255,255,.7);
+}
+.btn-lg {
+    padding: 15px 30px;
+}
+.btn {
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+/* End content_2 blog */
+
+
+/* End main style */

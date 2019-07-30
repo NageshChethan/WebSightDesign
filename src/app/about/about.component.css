@@ -1,0 +1,99 @@
+.bener_section {
+    background: url(/assets/Images/banner11.jpg)no-repeat center top scroll;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 95px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.bener_overlay {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+}
+@media (min-width: 1200px){
+    .container {
+        width: 1170px;
+    }
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.bener_content {
+    padding: 50px 0px;
+    max-width: 1000px;
+    margin-left: 15px;
+}
+.entry-header, .entry-content {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.bener_content h1 {
+    color: #191919;
+    font-size: 30px;
+}
+.entry-header h1 {
+    margin-bottom: 10px;
+}
+.entry-header h1 a, .entry-header h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 4rem;
+}
+.blog-box .bt-default {
+    padding: 80px;
+    border: 1px solid#EDEDED;
+    margin: 80px 0;
+}
+.hentry {
+    margin: 0 0 1.5em;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+article .entry-content {
+    margin-bottom: 40px;
+    border-bottom: 1px solid #EDEDED;
+    padding-bottom: 40px;
+    margin-top: 0px;
+}
+.entry-header, .entry-content {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+.entry-content p {
+    line-height: 25px;
+}
+.entry-content p {
+    margin-bottom: 30px;
+}
+p {
+    margin: 0 0 10px;
+}
+.entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5 {
+    margin-bottom: 30px;
+}
+.entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5 {
+    margin-bottom: 30px;
+}
